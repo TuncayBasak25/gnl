@@ -52,9 +52,8 @@ char
 			line[line_len++] = buff[buff_offset++];
 		if (buff_offset == buff_len)
 			buff_offset = 0;
-	}
-	if (line_len > 0)
 		line[line_len] = '\0';
+	}
 	return (line);
 }
 
